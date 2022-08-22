@@ -13,7 +13,11 @@ In particular, the user should input in l.16 some pubmed ID (PMID), e.g. '200643
 - Journal
 - Year of publication
 
+If perhaps you need additional information, do not hesitate to contact me and I'll gladly help.
+Hopefully, this script will also help other people learn how to interact with PubMed's API because their documention might seem confusing at first. 
 
+
+## Example Applications
 Using regular pandas and python programming one can easily find, for example:
 
 ### i) The number of people that has cited the article: 
@@ -44,7 +48,3 @@ Producing images like this one:
 	Poyatos, Juan F
 	Rodrigo, Guillermo
 	Yubero, Pablo
-
-
-
-Hopefully, this script will also help other people learn how to interact with PubMed's API because their documention might seem confusing at first. 
