@@ -1,7 +1,7 @@
 # py_pubmed
 Python script to obtain PubMed data using their public API.
 
-Although a great package exists to obtain in an efficient way PubMed data from their public API, [PyMed](https://pypi.org/project/pymed/ "PyMed"), I was interested in gathering information on author affiliations, a type of information that was missing from such package.
+Although a great package exists to obtain in an efficient way PubMed data from their public API, [PyMed]([https://pypi.org/project/pymed/](https://github.com/gijswobben/pymed) "PyMed at github"), I was interested in gathering information on author affiliations, a type of information that was missing from such package.
 
 In particular, the user should input in l.16 some pubmed ID (PMID), e.g. '20064380' which is a nice paper on RNA polymerases, and by the end of the script a pandas DataFrame will contain information on articles citing that work. The information that I was interested in is: 
 
