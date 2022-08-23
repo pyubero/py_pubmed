@@ -24,10 +24,10 @@ Using regular pandas and python programming one can easily find, for example:
 
 	unique_authors = np.unique(df['Author'])
 
-### ii) The number of citations from each author, or
+### ii) The number of citations from each author...
 
 	num_citations = np.array([ len( df[ df['Author']==author]) for author in unique_authors ])
-Producing images like this one:
+or producing images like this one:
 
 ![Number of citations from each author](/figure.png)
 
