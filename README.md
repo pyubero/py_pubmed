@@ -7,7 +7,7 @@ In particular, the user should input in l.16 some pubmed ID (PMID), e.g. '200643
 
 - Author
 - Affiliation
-- Country of the affiliation (simplified name)
+- Country of the affiliation (simplified name; using [pycountry](https://github.com/flyingcircusio/pycountry "pycountry at github") )
 - PMID
 - Title
 - Journal
